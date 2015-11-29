@@ -8,6 +8,7 @@ class CreateProducts < ActiveRecord::Migration
       t.decimal :bid, precision: 8, scale: 2
       t.datetime :time_in
       t.datetime :time_out
+      t.boolean :sold
 
       t.timestamps null: false
     end
