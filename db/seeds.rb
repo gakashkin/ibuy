@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Product.delete_all
+# . . .
+Product.create!(title: 'GoPro HERO4 (Black Edition)',
+description:
+%{<p>
+12MP HD 1080P Sports Action Waterproof Camera Mini DV SL400 as GoPro
+</p>},
+image_url: 's-l400.jpg',
+price: 200.00)
+# . . .

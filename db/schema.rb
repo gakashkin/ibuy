@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151129051841) do
     t.decimal  "bid",         precision: 8, scale: 2
     t.datetime "time_in"
     t.datetime "time_out"
+    t.boolean  "sold"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
   end
