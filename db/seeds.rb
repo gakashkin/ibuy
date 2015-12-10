@@ -12,6 +12,6 @@ description:
 %{<p>
 12MP HD 1080P Sports Action Waterproof Camera Mini DV SL400 as GoPro
 </p>},
-image_url: 's-l400.jpg',
+image_url: open('app/assets/images/s-l400.jpg'),
 price: 200.00)
 # . . .

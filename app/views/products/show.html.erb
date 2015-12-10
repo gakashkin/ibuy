@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong> title:</strong>
-  <%= @product. title %>
+  <strong>Title:</strong>
+  <%= @product.title %>
 </p>
 
 <p>
@@ -12,27 +12,12 @@
 
 <p>
   <strong>Image url:</strong>
-  <%= @product.image_url %>
+  <%= @product.image_url%>
 </p>
 
 <p>
   <strong>Price:</strong>
   <%= @product.price %>
-</p>
-
-<p>
-  <strong>Bid:</strong>
-  <%= @product.bid %>
-</p>
-
-<p>
-  <strong>Time in:</strong>
-  <%= @product.time_in %>
-</p>
-
-<p>
-  <strong>Time out:</strong>
-  <%= @product.time_out %>
 </p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
